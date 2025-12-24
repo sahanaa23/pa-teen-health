@@ -89,3 +89,29 @@ li {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   margin-bottom: 2rem;
 }
+
+.emergency-notice {
+  border: 2px solid #d32f2f;
+  background-color: #fdecea;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+
+.emergency-notice strong {
+  color: #b71c1c;
+  font-size: 1.1rem;
+}
+
+.accessibility-box {
+  background-color: #eef4ff;
+  border-left: 4px solid #4a6ee0;
+  padding: 1rem 1.25rem;
+  margin-top: 3rem;
+  border-radius: 4px;
+}
+
+.accessibility-box h3 {
+  margin-top: 0;
+  color: #2c3e94;
+}
