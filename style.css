@@ -3,14 +3,14 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fefefe; /* soft neutral background */
+  background-color: #fff5f8; /* soft pinkish-white background */
   color: #333;
   line-height: 1.6;
 }
 
 /* ---------- Header + Nav ---------- */
 header {
-  background-color: #4dd0e1; /* soft teal */
+  background-color: #ff7eb9; /* cute pink header */
   color: white;
   padding: 1.5rem 2rem;
   text-align: center;
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 /* ---------- Main Content ---------- */
@@ -55,27 +55,29 @@ main h1 {
   font-family: "Baloo 2", cursive;
   font-size: 2.2rem;
   margin-bottom: 1rem;
-  color: #ff7eb9; /* default pink accent */
+  color: #ff6fa3; /* pink accent */
 }
 
 main h2 {
   font-family: "Baloo 2", cursive;
   font-size: 1.5rem;
   margin-top: 2rem;
+  color: #ff85b3; /* subtle pink for subheadings */
 }
 
 main h3 {
   font-family: "Baloo 2", cursive;
   font-size: 1.25rem;
   margin-top: 1.25rem;
+  color: #ff85b3;
 }
 
 /* ---------- Cards for Sections ---------- */
 .card {
-  background-color: #ffffff;
+  background-color: #ffffff; /* white cards */
   padding: 1.5rem 2rem;
   border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 18px rgba(255, 111, 147, 0.08); /* pinkish shadow */
   margin-bottom: 2rem;
 }
 
@@ -99,8 +101,8 @@ li {
 
 /* ---------- Emergency Notice ---------- */
 .emergency-notice {
-  border: 2px solid #d84315; /* dark orange/red */
-  background-color: #ffebee;
+  border: 2px solid #d35400; /* red */
+  background-color: #fde7d5; /* red alert box */
   padding: 1rem;
   margin: 1.5rem 0;
   border-radius: 8px;
@@ -109,8 +111,8 @@ li {
 
 /* ---------- Accessibility Box ---------- */
 .accessibility-box {
-  background-color: #e3f2fd; /* light blue */
-  border-left: 4px solid #1e88e5;
+  background-color: #e0f7fa; /* blue box stays the same */
+  border-left: 5px solid #00bcd4;
   padding: 1rem 1.25rem;
   margin-top: 2rem;
   border-radius: 6px;
@@ -119,37 +121,34 @@ li {
 .accessibility-box h3 {
   margin-top: 0;
   font-family: "Baloo 2", cursive;
-  color: #1565c0;
+  color: #007c91;
 }
 
 /* ---------- Section Colors ---------- */
 .home-section {
-  background-color: #b2ebf2;
+  background-color: #ffe6f0;
 }
 .pharmacy-section {
-  background-color: #ffe0b2;
+  background-color: #fff0f5;
 }
 .immigrant-section {
-  background-color: #f8bbd0;
+  background-color: #ffe6f5;
 }
 .er-section {
-  background-color: #c8e6c9;
-}
-.about-section {
-  background-color: #fff9c4;
+  background-color: #ffe6f0;
 }
 .booking-section {
-  background-color: #bbdefb;
+  background-color: #ffd9ec;
 }
 .super-important {
-  background-color: #ffccbc;
-  border: 2px solid #d84315;
+  background-color: #ffd1e0;
+  border: 2px solid #d35400; /* keep important border red */
 }
 
 /* ---------- About Section ---------- */
 .about-section {
-  background-color: #fff9e6;
-  border-left: 6px solid #f5c33c;
+  background-color: #fff0f0; /* pale pink */
+  border-left: 6px solid #ff85b3; /* pink accent */
   padding: 2rem;
   border-radius: 12px;
 }
@@ -157,13 +156,14 @@ li {
 .about-section section {
   margin-bottom: 1.75rem;
 }
+
 .about-section h2 {
-  color: #f5a623;
+  color: #ff6fa3;
 }
 
 /* ---------- Contact Page ---------- */
 .contact-section {
-  background-color: white;
+  background-color: #ffffff; /* white box */
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
@@ -182,15 +182,15 @@ li {
   height: auto;
   border-radius: 50%;
   margin-top: 1.5rem;
-  border: 3px solid #2f80ed;
+  border: 3px solid #ff7eb9; /* pink border */
 }
 
-/* ---------- Info Pages (all except Home, About, Contact, Resources) ---------- */
+/* ---------- Info Pages ---------- */
 .info-page {
   padding: 2rem 1.5rem;
   max-width: 900px;
   margin: auto;
-  background-color: #f9f9fd;
+  background-color: #fff0f5; /* soft pink base */
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
 }
@@ -199,7 +199,7 @@ li {
   font-family: "Baloo 2", cursive;
   text-align: center;
   font-size: 2.4rem;
-  color: #2f80ed;
+  color: #ff6fa3;
   margin-bottom: 1rem;
 }
 
@@ -207,17 +207,17 @@ li {
   font-family: "Baloo 2", cursive;
   font-weight: 600;
   font-size: 1.6rem;
-  border-left: 5px solid #2f80ed;
+  border-left: 5px solid #ff85b3;
   padding-left: 0.8rem;
   border-radius: 4px;
-  background-color: #e6f0ff;
+  background-color: #ffe6f0;
   margin-top: 2rem;
 }
 
 .info-page p,
 .info-page li {
   font-family: "Baloo 2", cursive;
-  color: #2c3e50;
+  color: #333;
   line-height: 1.7;
 }
 
@@ -227,76 +227,77 @@ li {
   margin-bottom: 1rem;
 }
 
-.info-page .emergency-notice {
-  border: 2px solid #d35400;
-  background-color: #fde7d5;
-  padding: 1.25rem 1.5rem;
-  margin: 2rem 0;
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
-  font-weight: 600;
-}
-
-.info-page .accessibility-box {
-  background-color: #e0f7fa;
-  border-left: 5px solid #00bcd4;
-  padding: 1.2rem 1.5rem;
-  margin-top: 2.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-
-.info-page .accessibility-box h3 {
-  margin-top: 0;
-  color: #007c91;
-  font-size: 1.2rem;
-}
-
 .info-page li:hover {
-  background-color: rgba(47, 128, 237, 0.05);
+  background-color: rgba(255, 111, 147, 0.05);
   border-radius: 6px;
   padding-left: 0.3rem;
   transition: background-color 0.3s ease;
 }
 
-/* ---------- Section-specific Heading Colors ---------- */
+/* ---------- Section Colors (Updated for lighter aesthetic) ---------- */
+.home-section {
+  background-color: #fff5f8; /* mostly white with a hint of pink */
+}
+.booking-section {
+  background-color: #fff5f8; /* mostly white with pink accent on headings */
+}
+.pharmacy-section {
+  background-color: #fff8fb; /* very pale pink */
+}
+.immigrant-section {
+  background-color: #fff5f8; /* white with soft pink tint */
+}
+.er-section {
+  background-color: #fff5f8; /* white base */
+}
+.reproductive-section {
+  background-color: #fff5f8; /* white with subtle pink hint */
+}
+.mental-section {
+  background-color: #fff5f8; /* mostly white, very subtle pink */
+}
+
+/* ---------- Section-specific Heading Colors (keeping pink accents) ---------- */
 .booking-section h1,
 .booking-section h2 {
-  color: #1976d2;
-  border-left-color: #1976d2;
+  color: #ff6fa3;
+  border-left-color: #ff6fa3;
 }
 .pharmacy-section h1,
 .pharmacy-section h2 {
-  color: #f57c00;
-  border-left-color: #f57c00;
+  color: #ff6fa3;
+  border-left-color: #ff6fa3;
 }
 .immigrant-section h1,
 .immigrant-section h2 {
-  color: #d81b60;
-  border-left-color: #d81b60;
+  color: #ff6fa3;
+  border-left-color: #ff6fa3;
 }
 .er-section h1,
 .er-section h2 {
-  color: #2e7d32;
-  border-left-color: #2e7d32;
-}
-.mental-section h1,
-.mental-section h2 {
-  color: #8e24aa;
-  border-left-color: #8e24aa;
+  color: #ff6fa3;
+  border-left-color: #ff6fa3;
 }
 .reproductive-section h1,
 .reproductive-section h2 {
-  color: #f06292;
-  border-left-color: #f06292;
+  color: #ff6fa3;
+  border-left-color: #ff6fa3;
+}
+.mental-section h1,
+.mental-section h2 {
+  color: #ff6fa3;
+  border-left-color: #ff6fa3;
 }
 
-/* ---------- Resources Page (Cute Version) ---------- */
+
+/* ---------- Resources Page (Cute Version) */
+/* Keep exactly as-is for inspiration */
 .resources-page {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   padding: 2rem 1.5rem;
+  background-color: #ffffff;
 }
 
 /* Resources Page Title Box */
@@ -309,13 +310,13 @@ li {
   color: #ff7eb9; /* cute pink accent */
   font-size: 2rem;
   max-width: 400px;
-  margin: 2.5rem auto 1.5rem auto; /* lower it slightly */
+  margin: 2.5rem auto 1.5rem auto;
 }
 
 .resources-page .resource-card {
   background-color: #fff0f5; /* soft pastel pink */
   padding: 1.5rem;
-  border-radius: 16px; /* extra roundness for cute vibe */
+  border-radius: 16px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
   text-align: center;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -339,17 +340,17 @@ li {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Optional category badge inside each card */
 .resources-page .resource-card .badge {
   display: inline-block;
   padding: 0.25rem 0.6rem;
-  background-color: #ffe0b2; /* pastel orange */
+  background-color: #ffe0b2;
   border-radius: 12px;
   font-size: 0.8rem;
   margin-bottom: 0.75rem;
   color: #d84315;
   font-weight: 600;
 }
+
 /* ---------- Home Page Cute Styling ---------- */
 .home-page {
   max-width: 900px;
@@ -395,7 +396,7 @@ li {
 
 .home-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px rgba(255, 111, 147, 0.08);
 }
 
 .home-card h2 {
@@ -404,10 +405,11 @@ li {
 }
 
 .home-card p {
-  font-size: 0.85rem; /* keeps it slightly smaller than main text */
-  line-height: 1.3; /* tighter spacing */
-  margin: 0.5rem 0; /* reduces extra space above/below paragraphs */
+  font-size: 0.85rem;
+  line-height: 1.3;
+  margin: 0.5rem 0;
 }
+
 .home-card ul {
   font-size: 0.95rem;
   color: #555;
