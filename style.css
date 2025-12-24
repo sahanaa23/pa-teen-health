@@ -101,8 +101,8 @@ li {
 
 /* ---------- Emergency Notice ---------- */
 .emergency-notice {
-  border: 2px solid #d35400; /* red */
-  background-color: #fde7d5; /* red alert box */
+  border: 2px solid #ff0000; /* red */
+  background-color: #ffcccc; /* red alert box */
   padding: 1rem;
   margin: 1.5rem 0;
   border-radius: 8px;
@@ -141,8 +141,8 @@ li {
   background-color: #ffd9ec;
 }
 .super-important {
-  background-color: #ffd1e0;
-  border: 2px solid #d35400; /* keep important border red */
+  background-color: #ffcccc;
+  border: 2px solid #ff0000; /* keep important border red */
 }
 
 /* ---------- About Section ---------- */
@@ -289,7 +289,6 @@ li {
   border-left-color: #ff6fa3;
 }
 
-
 /* ---------- Resources Page (Cute Version) */
 /* Keep exactly as-is for inspiration */
 .resources-page {
@@ -418,8 +417,8 @@ li {
 
 /* Keep emergency & accessibility exactly as in info pages */
 .home-page .emergency-notice {
-  border: 2px solid #d35400;
-  background-color: #fde7d5;
+  border: 2px solid #ff0000;
+  background-color: #ffcccc;
   padding: 1.25rem 1.5rem;
   margin: 2rem 0;
   border-radius: 12px;
