@@ -440,3 +440,10 @@ li {
   color: #007c91;
   font-size: 1.2rem;
 }
+
+.credit {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #c78fa6;
+  text-align: center;
+}
