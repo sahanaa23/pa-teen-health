@@ -1,23 +1,13 @@
-**Pennsylvania Teen Health:**
-A website designed to help teens better understand healthcare and navigate medical visits.
+# Pennsylvania Teen Health
 
+**Live Website:** https://pateenhealth.netlify.app/
 
+## About
+A teen-friendly health literacy website designed to help Pennsylvania teens better understand healthcare and navigate medical visits. Covers topics such as booking appointments, describing symptoms, choosing healthcare services, pharmacy basics, mental health, and reproductive health.
 
-**Live Website:**
-https://pateenhealth.netlify.app/  
-
-
-
-**About:**
-Provides simple, teen-friendly information about booking appointments, describing symptoms, pharmacies, mental health, reproductive health, and other healthcare topics.
-
-
-
-**Built With:**
+## Built With
 - HTML
 - CSS
 
-
-
-**Author:**
+## Author
 Sahana Singh
